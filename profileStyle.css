@@ -1,25 +1,56 @@
+/* Set background color to dark shades of red */
 body {
-    background-color: red;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  nav a {
-    display: inline-block;
-    margin-right: 10px;
-  }
-    header {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 20px;
-      }
+  background: linear-gradient(to bottom right, #df1717,#801b1b,#701313, #2d0b0b, #3f0909, #320101);
+
+}
+
+body {
+  color: white;
+}
+
+/* Align all text to center */
+body {
+  text-align: center;
+}
+
+/* Align all links to top left */
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Set the display property of the container to flex */
+.box-container {
+  display: flex;
+  justify-content: center; /* Centers the boxes horizontally */
+  align-items: center; /* Centers the boxes vertically */
+  flex-wrap: wrap; /* Allows the boxes to wrap to the next line if necessary */
+}
+
+
+/* Box 1 with shades of gray */
+.box1 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to bottom right, #0f037d, #060236, #023263);
+}
+
+/* Box 2 with shades of green */
+.box2 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to bottom right, #084008, #011801, #012c01);
+}
+
+/* Box 3 with shades of blue */
+.box3 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to bottom right, #053452, #03192f, #0a0348);
+}
